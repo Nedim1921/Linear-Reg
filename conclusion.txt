@@ -1,0 +1,12 @@
+Iz output-a se moze primjetiti da predikcija nije najtacnija, razlika izmedju stvarne i predvidjene vrijednosti je od 40k $ do 50k $, prema MAE i RMSE.
+Sto se tice preciznosti modela kroz trening iznosi cca 0,6. 
+
+MAE - predstavlja prosjecnu apsolutnu vrijednost razlike izmedju stvarnih i predvidjenih vrijednosti.
+
+RMSE - predstavlja kvadratni korijen MSE, a MSE mjeri prosjecnu kvadratnu razliku izmedju stvarnih i predvidjenih vrijednosti. 
+
+Moguci razlog zasto je RMSE veci od MAE je u tome sto RMSE daje veci znacaj vecim greskama.
+
+Za bolju predikciju modela trebao bih uraditi dodatnu analizu podataka, zbog mogucnosti nedovoljnog broja featur-a ili manjka podataka.
+Detaljnija analiza gresaka. Pokusati shvatiti gdje model grijesi. 
+Isprobati neku drugu ML tehniku.
